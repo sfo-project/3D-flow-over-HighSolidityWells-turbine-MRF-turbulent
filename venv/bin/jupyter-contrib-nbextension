@@ -1,0 +1,10 @@
+#!/Users/Reynolds/Desktop/SFO_Proj/dimension-flow-type-geometry-regiem/venv/bin/python3.5
+# EASY-INSTALL-ENTRY-SCRIPT: 'jupyter-contrib-nbextensions==0.2.0','console_scripts','jupyter-contrib-nbextension'
+__requires__ = 'jupyter-contrib-nbextensions==0.2.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('jupyter-contrib-nbextensions==0.2.0', 'console_scripts', 'jupyter-contrib-nbextension')()
+    )

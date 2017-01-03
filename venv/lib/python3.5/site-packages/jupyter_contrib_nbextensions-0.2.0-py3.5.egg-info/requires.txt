@@ -1,0 +1,19 @@
+ipython_genutils
+jupyter_contrib_core >=0.3
+jupyter_core
+jupyter_nbextensions_configurator
+nbconvert
+notebook >=4.0
+psutil >=2.2.1
+pyyaml
+tornado
+traitlets
+
+[test]
+nbformat
+nose
+pip
+requests
+
+[test:python_version == "2.7"]
+mock

@@ -1,0 +1,12 @@
+[console_scripts]
+jupyter-contrib-nbextension = jupyter_contrib_nbextensions.application:main
+
+[jupyter_contrib_core.app.subcommands]
+nbextension = jupyter_contrib_nbextensions.application:jupyter_contrib_core_app_subcommands
+
+[nbconvert.exporters]
+html_embed = jupyter_contrib_nbextensions.nbconvert_support.embedhtml:EmbedHTMLExporter
+html_lenvs = jupyter_contrib_nbextensions.nbconvert_support.latex_envs:LenvsHTMLExporter
+html_toc = jupyter_contrib_nbextensions.nbconvert_support.toc2:TocExporter
+latex_lenvs = jupyter_contrib_nbextensions.nbconvert_support.latex_envs:LenvsLatexExporter
+
